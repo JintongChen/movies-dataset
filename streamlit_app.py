@@ -18,7 +18,7 @@ st.write(
 # reruns (e.g. if the user interacts with the widgets).
 @st.cache_data
 def load_data():
-    df = pd.read_csv("C:\Users\a00219912\Downloads\Quickly_get_faccts_sale.csv")
+    df = pd.read_csv("")
     return df
 
 
